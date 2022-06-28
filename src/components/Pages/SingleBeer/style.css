@@ -1,0 +1,68 @@
+#singleImage {
+  text-align: center;
+  align-items: center;
+  height: 450px;
+  margin-top: 80px;
+}
+#singleBeer {
+  display: block;
+  text-align: center;
+}
+
+#tituloAtt {
+  display: flex;
+
+  justify-content: space-between;
+  height: 100px;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 0 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#description {
+  font-size: 25px;
+  margin: 0 20px;
+  text-align: justify;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#created {
+  color: gray;
+  margin: 0 20px;
+  text-align: start;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#tagBrewed {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  height: 100px;
+}
+#att {
+  color: darkgray;
+  font-size: 40px;
+}
+
+#firstBrewed {
+  font-size: 25px;
+  letter-spacing: -2px;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#buttonBack {
+  display: flex;
+  margin: 100px 0;
+  justify-content: center;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nosub {
+  text-decoration: none;
+}
