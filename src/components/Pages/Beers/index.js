@@ -29,7 +29,7 @@ export function Beers() {
           <>
             <div id="allBeers">
               <div>
-                <Link to={currentBeer.name}>
+                <Link to={currentBeer._id}>
                   <img
                     id="imagebeer"
                     src={currentBeer.image_url}

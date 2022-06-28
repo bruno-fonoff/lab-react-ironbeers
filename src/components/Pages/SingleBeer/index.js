@@ -28,7 +28,7 @@ export function SingleBeer() {
       <div>
         {stateBeer
           .filter((currentBeer) => {
-            return currentBeer.name === beerId;
+            return currentBeer._id === beerId;
           })
           .map((currentBeer) => {
             return (
